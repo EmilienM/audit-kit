@@ -17,6 +17,7 @@ skills/code-audit/
   scripts/domains.sh                  picks the domain lenses
   workflows/audit.js                  the panel: lenses, skeptics, voting
 audit-panel.png                       a one-page visual of the whole system
+LICENSE                               Apache License 2.0
 ```
 
 ## Install
@@ -125,3 +126,7 @@ The four core personas are separate files. Rewrite one in place, or add a new on
 ## Requirements
 
 Claude Code with the Workflow tool. The scripts run on Linux with GNU coreutils and findutils: `bash` 4 or newer, `git`, `awk`, `grep`, `realpath`, `stat`, `find`, and `xargs`. macOS and BSD are not supported.
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
